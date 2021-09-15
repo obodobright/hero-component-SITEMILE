@@ -1,0 +1,49 @@
+.header {
+    text-align: center;
+}
+
+.header span {
+    color: gold;
+    background: purple;
+    padding: 2px 3px;
+    text-transform: uppercase
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: purple;
+    color: gold;
+    display: flex;
+    width: 100%;
+}
+
+
+/* a {
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    cursor: pointer
+} */
+
+.navbar {
+    width: 100%;
+    padding: 1px;
+}
+
+.bg-primary {
+    background: red;
+    color: white
+}
+
+.main {
+    margin: auto;
+    color: red;
+    background: #a83535
+}
+
+
+/* 
+.App {
+    text-align: center;
+} */
