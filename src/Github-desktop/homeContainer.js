@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import HomeCenter from "./MiddleHome/homeCenter";
-import HomeIndex from './homeIndex'
+import HomeIndex from './homeIndex';
 import HomeBottomCenter from "./bottomHome/HomeBottomContainer"
 
 const Home = () => {

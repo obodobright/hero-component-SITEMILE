@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import HomeText from './homeText';
-import GithubIcon from './image/desktopicon.svg'
+import GithubIcon from './image/desktopicon.svg';
 
 
 const HomeIndex = ({clr}) => {

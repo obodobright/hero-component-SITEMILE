@@ -8,7 +8,7 @@ const HomeBottom = ({img, textHead,textBody}) => {
           <ContainerImg src={img} />
           <ContainerTextHead>{textHead}</ContainerTextHead>
           <ContainerTextBody>
-            {" "}
+           
             {textBody}
           </ContainerTextBody>
         </Wrapper>
@@ -21,16 +21,14 @@ export default HomeBottom;
 const Container = styled.div`
 width:100%;
 margin: 5vh 0;
-
-
 `
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction:column;
- margin:0 30px;
- text-align:center
+ margin:0 31px;
+ text-align:center;
   
 `;
 const ContainerImg = styled.img`

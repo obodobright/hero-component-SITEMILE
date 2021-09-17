@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import HomeBottom from "./HomeBottom";
-import Img1 from '../image/expandedImage.svg'
+import Img1 from '../image/expandedImage.svg';
 import Img2 from '../image/communitySuppoted.svg'
 import Img3 from '../image/terminalshellIntegration.svg'
 const HomeBottomCenter = () => {

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import HomeImage from "./image/githubwindows.png";
 
-const HomeText = () => {
+const HomeText = ( ) => {
   return (
     <Container>
       <ContainerHeader>Github Desktop</ContainerHeader>

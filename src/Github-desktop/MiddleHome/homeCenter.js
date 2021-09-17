@@ -2,8 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import HomeBuild from "../MiddleHome/homeBuild"
 import Img1 from '../image/attributecommits.png'
-import Img2 from '../image/checkoutBranches.png'
-import Img3 from '../image/syntaxHighlighted.png'
+import Img2 from '../image/checkoutBranches.png';
+import Img3 from '../image/syntaxHighlighted.png';
 
 
 const HomeCenter = () => {
