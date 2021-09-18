@@ -27,7 +27,8 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction:column;
- margin:0 31px;
+
+ margin:0 20px;
  text-align:center;
   
 `;
@@ -43,8 +44,9 @@ const ContainerImg = styled.img`
 `;
 
 const ContainerTextHead = styled.h6`
-font-size:15px
+font-size:13px
 `
 const ContainerTextBody = styled.p`
-font-size:13px
+font-size:11px;
+font-weight:100
 `;
