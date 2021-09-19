@@ -1,13 +1,14 @@
 import React from "react";
 import styled from 'styled-components'
 // import Game from "./game/game";
-import Home from './Github-desktop/homeContainer'
+// import Home from './Github-desktop/homeContainer'
+import Accordion from "./accordion/accordion";
 
 function App() {
   return (
     <React.Fragment>
       <Container>
-        <Home />
+       <Accordion />
       </Container>
     </React.Fragment>
   );
