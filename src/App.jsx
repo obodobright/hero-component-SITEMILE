@@ -1,22 +1,12 @@
-import React from "react";
-import styled from 'styled-components'
-// import Game from "./game/game";
-// import Home from './Github-desktop/homeContainer'
-import Accordion from "./accordion/accordion";
+import React from 'react'
+// import HomeScreen from './Routing/Homescreen'
+import LoginContainer from './login/loginContainer'
 
-function App() {
-  return (
-    <React.Fragment>
-      <Container>
-       <Accordion />
-      </Container>
-    </React.Fragment>
-  );
+const App = () =>{
+    return(
+        <div>
+            <LoginContainer />
+        </div>
+    )
 }
-
-
-export default App;
-const Container = styled.div`
-height:100%;
-width:100%;
-`
+export default App

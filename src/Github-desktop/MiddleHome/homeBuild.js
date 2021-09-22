@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const HomeBuild = ({chn, img,textHead,textBody}) => {
+const HomeBuild = ({chn, img,textHead,textBody,sup,colouredText}) => {
     return (
       <Container>
         <Wrapper chn={chn}>
@@ -10,6 +10,7 @@ const HomeBuild = ({chn, img,textHead,textBody}) => {
             <TextHead>{textHead}</TextHead>
             <TextBody>
               {textBody}
+              <Span sup={sup}>{colouredText}</Span>
             </TextBody>
           </WrapperText>
         </Wrapper>
@@ -50,6 +51,14 @@ const WrapperText = styled.div`
   font-weight:300
   `
    const TextBody = styled.p`
-   font-size: 13px;
-   font-weight:100
+     font-size: 13px;
+     font-weight: 100;
+
+    
    `;
+   const Span =styled.span`
+      color: ${({ sup }) => (sup ? "red" : "white")};
+   `;
+    
+     
+  

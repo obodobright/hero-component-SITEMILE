@@ -12,7 +12,9 @@ const HomeCenter = () => {
       <HomeBuild
         img={Img1}
         textHead="Attribute commits with collaborators easily"
-        textBody="Quickly add co-authors to your commit. Great for pairing and excellent for sending a little love/credit to that special someone who helped fix that gnarly bug of yours. See the attribution on the history page, undo an accidental attribution, and see the co-authors on github.com"
+        colouredText="github.com"
+        sup
+        textBody="Quickly add co-authors to your commit. Great for pairing and excellent for sending a little love/credit to that special someone who helped fix that gnarly bug of yours. See the attribution on the history page, undo an accidental attribution, and see the co-authors on "
       />
       <HomeBuild
         chn
