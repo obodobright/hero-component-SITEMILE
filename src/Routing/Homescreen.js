@@ -1,40 +1,28 @@
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home, Contact, About } from "./home"
-import Nav from "./nav"
-
-const HomeScreen = () => {
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import NavBar from './nav'
+import {Home, About, Settings, Contact} from './component'
+const Homescreen = () => {
     return (
       <Container>
         <Router>
-           <Nav />
-          {" "}
+          <NavBar />
           <Switch>
-             <Route path="/" exact component={Home}></Route>
-             <Route path="/contact" exact component={Contact}></Route>
+            <Route path="/" exact component={Home}></Route>
             <Route path="/about" exact component={About}></Route>
-            {" "}
+            <Route path="/settings" exact component={Settings}></Route>
+            <Route path="/contact" exact component={Contact}></Route>
           </Switch>
-          {" "}
         </Router>
       </Container>
-      // <Container>
-      //   <Router>
-      //       <Nav />
-      //     <Switch>
-      //       <Route path="/" exact component={Home}></Route>
-      //       <Route path="/contact" exact component={Contact}></Route>
-      //       <Route path="/about" exact component={About}></Route>
-      //     </Switch>
-      //   </Router>
-      // </Container>
     );
 }
-export default HomeScreen
-const Container = styled.div `
+export default Homescreen
+const Container = styled.div`
 width:100%;
-background:white;
 min-height:100vh;
+height:100%;
+background:lightblue;
 
 `
