@@ -1,13 +1,15 @@
-import React from 'react'
- import HomeScreen from './Routing/Homescreen'
-import LoginContainer from './login/loginContainer'
+import React from "react";
+// import HomeScreen from './Routing/Homescreen'
+import LoginContainer from "./login/loginContainer";
+import Home from "./Sitemile/home";
 
-const App = () =>{
-    return(
-        <div>
-            {/* <LoginContainer /> */}
-            <HomeScreen />
-        </div>
-    )
-}
-export default App
+const App = () => {
+  return (
+    <div>
+      {/* <LoginContainer /> */}
+      {/* <HomeScreen /> */}
+      <Home />
+    </div>
+  );
+};
+export default App;
